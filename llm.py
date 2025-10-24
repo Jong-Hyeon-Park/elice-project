@@ -7,7 +7,7 @@ from langchain.chains import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 
-from example_prompt import answer_examples
+from prompt import answer_examples
 
 def get_retriever():
   embeddings = OpenAIEmbeddings(model='text-embedding-3-large')

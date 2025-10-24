@@ -16,3 +16,6 @@ Streamlit, LangChain, OpenAI, Pinecone을 사용하여 구축한 RAG(검색-증�
 (가상환경을 생성한 후)
 ```bash
 pip install -r requirements.txt
+
+## 챗봇 서버 실행
+streamlit run chat_bot.py
